@@ -55,7 +55,7 @@ Route::get('/about-us', function () {
 });
 
 Route::resource('/contact-us', ContactUsController::class, [
-    'only' => ['index', 'create', 'store']
+    'only' => ['index']
 ]);
 
 
